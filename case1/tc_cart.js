@@ -32,7 +32,7 @@ for (var i = 0; i < item.length; i++) {
    
    /* Calculate the cost of the item(s) ordered  */
    //mulitplies the price by the quantity
-   var itemCost = itemPrice*item[i];
+   var itemCost = itemPrice[i]*itemQty[i];
    cartHTML += "<td>$" + itemCost + "</td>";
    cartHTML += "</tr>";
 
